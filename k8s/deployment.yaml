@@ -15,7 +15,7 @@ spec:
         containers:
         - name: conv-dist
           image: ivan3j/conv-dist:v1
-          ports:
+          ports: 80
             - containerPort: 5000
 ---
 apiVersion: v1
